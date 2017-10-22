@@ -32,3 +32,8 @@ Copy this entire key to GCP ssh key
 <kbd>
   <img src="/MAC_LINUX_2_cat_pub_key.png">
 </kbd>
+
+
+# USING WINDOWS (Putty)
+
+[Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) putty for windows.

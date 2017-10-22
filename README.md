@@ -19,7 +19,7 @@ You can enter a passphrase if you'd like or leave it blank by just hitting Enter
   <img src="/MAC_LINUX_1_path_2_key.png">
 </kbd>
 
-Location to your public key is as highlighted above in red.
+Location to your public key is as highlighted above in red, and can be accessed with the following cat command in Step 2.
 
 # Step 2: Copy Public Key to VM
 

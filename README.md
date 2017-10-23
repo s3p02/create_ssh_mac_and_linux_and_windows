@@ -69,7 +69,7 @@ Click 'Finish'.
 From the start Menu, search for putty and click 'PuTTYgen'. 
 
 <kbd>
-  <img src="/4_putty_gen.PNG">
+  <img src="/4_putty_gen.png">
 </kbd>
 
 Click 'Generate'.

@@ -132,13 +132,13 @@ Name you file, make sure it's not same as your public key and click 'Save'.
 You can obtain your public IP address by returning to your GCP console.
 
 <kbd>
-  <img src="/14_ip_address.png">
+  <img src="/14_ip_address.PNG">
 </kbd>
 
 From the start Menu, search for putty and click 'PuTTY'. 
 
 <kbd>
-  <img src="/13_start_putty.PNG">
+  <img src="/13_start_putty.png">
 </kbd>
 
 1. Scroll down.
@@ -149,7 +149,7 @@ From the start Menu, search for putty and click 'PuTTY'.
 
 
 <kbd>
-  <img src="/15_ssh_auth_browse_private_key.png">
+  <img src="/15_ssh_auth_browse_private_key.PNG">
 </kbd>
 
 1. Scroll back up, Click 'Session'
@@ -159,7 +159,7 @@ From the start Menu, search for putty and click 'PuTTY'.
 5. Start your session by clicking 'Open'
 
 <kbd>
-  <img src="/16_save.png">
+  <img src="/16_save.PNG">
 </kbd>
 
 Click 'yes' when prompted.
@@ -167,5 +167,5 @@ Click 'yes' when prompted.
 Enetr your GCP username and hit the 'Enter/return' key
 
 <kbd>
-  <img src="/17_login_as.png">
+  <img src="/17_login_as.PNG">
 </kbd>

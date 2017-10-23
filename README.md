@@ -64,4 +64,108 @@ Click 'Finish'.
   <img src="/3_finished.PNG">
 </kbd>
 
+# Step 2: Generate SSH Key using PuTTYgen
 
+From the start Menu, search for putty and click 'PuTTYgen'. 
+
+<kbd>
+  <img src="/4_putty_gen.PNG">
+</kbd>
+
+Click 'Generate'.
+
+<kbd>
+  <img src="/5_generate.PNG">
+</kbd>
+
+Move your mouse cursor on the blank area, to generate some randomness.
+
+<kbd>
+  <img src="/6_move_over_blank_area.PNG">
+</kbd>
+
+Replace the Key comment, with your GCP username.
+
+<kbd>
+  <img src="/7_replace_with_user_name.PNG">
+</kbd>
+
+Copy the entire public key contents as highlighted.
+
+<kbd>
+  <img src="/8_copy_contents.PNG">
+</kbd>
+
+You can save your public and private key for future reference. You can give a passphrase for your keys if you want. Since I haven't I will be prompted to do so later while saving the private key.
+
+Click 'Save public key'.
+
+<kbd>
+  <img src="/9_save_public_private_key.PNG">
+</kbd>
+
+Name you file and click 'Save'.
+
+<kbd>
+  <img src="/10_pub.PNG">
+</kbd>
+
+Click 'Save private key'.
+
+<kbd>
+  <img src="/9_save_public_private_key.PNG">
+</kbd>
+
+Since I never gave a passphrase, I can click 'Yes'.
+
+<kbd>
+  <img src="/11_private_yes.PNG">
+</kbd>
+
+Name you file, make sure it's not same as your public key and click 'Save'.
+<kbd>
+  <img src="/12_private.PNG">
+</kbd>
+
+# Step 3: Launch PuTTY
+
+You can obtain your public IP address by returning to your GCP console.
+
+<kbd>
+  <img src="/14_ip_address.png">
+</kbd>
+
+From the start Menu, search for putty and click 'PuTTY'. 
+
+<kbd>
+  <img src="/13_start_putty.PNG">
+</kbd>
+
+1. Scroll down.
+2. Click 'Connection'
+3. Click 'SSH'
+4. Click 'Auth'
+5. Click 'Browse' and select the private key you save from PuTTYgen, which has a extension '.ppk'
+
+
+<kbd>
+  <img src="/15_ssh_auth_browse_private_key.png">
+</kbd>
+
+1. Scroll back up, Click 'Session'
+2. Enter your public ip address
+3. name your session
+4. Click 'Save'
+5. Start your session by clicking 'Open'
+
+<kbd>
+  <img src="/16_save.png">
+</kbd>
+
+Click 'yes' when prompted.
+
+Enetr your GCP username and hit the 'Enter/return' key
+
+<kbd>
+  <img src="/17_login_as.png">
+</kbd>

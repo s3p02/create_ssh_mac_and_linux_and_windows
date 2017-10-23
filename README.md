@@ -164,7 +164,7 @@ From the start Menu, search for putty and click 'PuTTY'.
 
 Click 'yes' when prompted.
 
-Enetr your GCP username and hit the 'Enter/return' key
+Enter your GCP username and hit the 'Enter/return' key to login to your VM
 
 <kbd>
   <img src="/17_login_as.PNG">

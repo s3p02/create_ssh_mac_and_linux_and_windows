@@ -37,3 +37,27 @@ Copy this entire key to GCP ssh key
 # USING WINDOWS (Putty)
 
 [Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) putty for windows.
+
+# Step 1: Installation
+
+Click 'Next'. 
+<kbd>
+  <img src="/0_putty_install.png">
+</kbd>
+
+Click 'Next'. 
+<kbd>
+  <img src="/1_next.png">
+</kbd>
+
+Click 'Install'. 
+<kbd>
+  <img src="/2_install.png">
+</kbd>
+
+Click 'Finish'. 
+<kbd>
+  <img src="/3_finished.png">
+</kbd>
+
+

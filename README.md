@@ -42,22 +42,22 @@ Copy this entire key to GCP ssh key
 
 Click 'Next'. 
 <kbd>
-  <img src="/0_putty_install.png">
+  <img src="/0_putty_install.PNG">
 </kbd>
 
 Click 'Next'. 
 <kbd>
-  <img src="/1_next.png">
+  <img src="/1_next.PNG">
 </kbd>
 
 Click 'Install'. 
 <kbd>
-  <img src="/2_install.png">
+  <img src="/2_install.PNG">
 </kbd>
 
 Click 'Finish'. 
 <kbd>
-  <img src="/3_finished.png">
+  <img src="/3_finished.PNG">
 </kbd>
 
 

@@ -2,12 +2,12 @@
 
 # Open a new terminal.
 
-## Step 1: Using the SSH-KEYGEN
+# Step 1: Using the SSH-KEYGEN
 
 ```
 sudo ssh-keygen -t rsa -f ~/.ssh/gcp_deeplearn_gpu -C srpa3180
 ```
-# Here I have named my key 'gcp_deeplearn_gpu' located in '~/.ssh/' and 'srpa3180' is my username
+## Here I have named my key 'gcp_deeplearn_gpu' located in '~/.ssh/' and 'srpa3180' is my username
 
 <kbd>
   <img src="/MAC_LINUX_0_ssh_keygen.png">
@@ -19,7 +19,7 @@ You can enter a passphrase if you'd like or leave it blank by just hitting Enter
   <img src="/MAC_LINUX_1_path_2_key.png">
 </kbd>
 
-#Location to your public key is as highlighted above in red, and can be accessed with the following cat command in Step 2.
+## Location to your public key is as highlighted above in red, and can be accessed with the following cat command in Step 2.
 
 ## Step 2: Copy Public Key to VM
 
@@ -27,7 +27,7 @@ You can enter a passphrase if you'd like or leave it blank by just hitting Enter
 sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 ```
 
-#Copy this entire key to GCP ssh key
+## Copy this entire key to GCP ssh key
 
 <kbd>
   <img src="/MAC_LINUX_2_cat_pub_key.png">
@@ -40,25 +40,25 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 
 # Step 1: Installation
 
-Click 'Next'. 
+## Click 'Next'. 
 
 <kbd>
   <img src="/0_putty_install.PNG">
 </kbd>
 
-Click 'Next'. 
+## Click 'Next'. 
 
 <kbd>
   <img src="/1_next.PNG">
 </kbd>
 
-Click 'Install'. 
+## Click 'Install'. 
 
 <kbd>
   <img src="/2_install.PNG">
 </kbd>
 
-Click 'Finish'. 
+## Click 'Finish'. 
 
 <kbd>
   <img src="/3_finished.PNG">
@@ -66,51 +66,51 @@ Click 'Finish'.
 
 # Step 2: Generate SSH Key using PuTTYgen
 
-From the start Menu, search for putty and click 'PuTTYgen'. 
+## From the start Menu, search for putty and click 'PuTTYgen'. 
 
 <kbd>
   <img src="/4_putty_gen.png">
 </kbd>
 
-Click 'Generate'.
+## Click 'Generate'.
 
 <kbd>
   <img src="/5_generate.PNG">
 </kbd>
 
-Move your mouse cursor on the blank area, to generate some randomness.
+## Move your mouse cursor on the blank area, to generate some randomness.
 
 <kbd>
   <img src="/6_move_over_blank_area.PNG">
 </kbd>
 
-Replace the Key comment, with your GCP username.
+## Replace the Key comment, with your GCP username.
 
 <kbd>
   <img src="/7_replace_with_user_name.PNG">
 </kbd>
 
-Copy the entire public key contents as highlighted.
+## Copy the entire public key contents as highlighted.
 
 <kbd>
   <img src="/8_copy_contents.PNG">
 </kbd>
 
-You can save your public and private key for future reference. You can give a passphrase for your keys if you want. Since I haven't I will be prompted to do so later while saving the private key.
+## You can save your public and private key for future reference. You can give a passphrase for your keys if you want. Since I haven't I will be prompted to do so later while saving the private key.
 
-Click 'Save public key'.
+## Click 'Save public key'.
 
 <kbd>
   <img src="/9_save_public_private_key.PNG">
 </kbd>
 
-Name you file and click 'Save'.
+## Name you file and click 'Save'.
 
 <kbd>
   <img src="/10_pub.PNG">
 </kbd>
 
-Click 'Save private key'.
+## Click 'Save private key'.
 
 <kbd>
   <img src="/9_save_public_private_key.PNG">

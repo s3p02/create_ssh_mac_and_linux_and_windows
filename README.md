@@ -33,6 +33,8 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
   <img src="/MAC_LINUX_2_cat_pub_key.png">
 </kbd>
 
+## Once you've copied your key, continue from [Step 6](https://github.com/s3p02/gcp_console_getting_started)
+
 
 # USING WINDOWS (Putty)
 
@@ -127,6 +129,8 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 <kbd>
   <img src="/12_private.PNG">
 </kbd>
+
+## Once you've copied your key, continue from [Step 6](https://github.com/s3p02/gcp_console_getting_started), you can save your key as well with the following steps.
 
 # Step 3: Launch PuTTY
 

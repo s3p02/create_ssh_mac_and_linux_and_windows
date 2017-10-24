@@ -13,7 +13,7 @@ sudo ssh-keygen -t rsa -f ~/.ssh/gcp_deeplearn_gpu -C srpa3180
   <img src="/MAC_LINUX_0_ssh_keygen.png">
 </kbd>
 
-You can enter a passphrase if you'd like or leave it blank by just hitting Enter/return key
+## You can enter a passphrase if you'd like or leave it blank by just hitting Enter/return key
 
 <kbd>
   <img src="/MAC_LINUX_1_path_2_key.png">
@@ -116,55 +116,56 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
   <img src="/9_save_public_private_key.PNG">
 </kbd>
 
-Since I never gave a passphrase, I can click 'Yes'.
+## Since I never gave a passphrase, I can click 'Yes'.
 
 <kbd>
   <img src="/11_private_yes.PNG">
 </kbd>
 
-Name you file, make sure it's not same as your public key and click 'Save'.
+## Name you file, make sure it's not same as your public key and click 'Save'.
+
 <kbd>
   <img src="/12_private.PNG">
 </kbd>
 
 # Step 3: Launch PuTTY
 
-You can obtain your public IP address by returning to your GCP console.
+## You can obtain your public IP address by returning to your GCP console.
 
 <kbd>
   <img src="/14_ip_address.PNG">
 </kbd>
 
-From the start Menu, search for putty and click 'PuTTY'. 
+## From the start Menu, search for putty and click 'PuTTY'. 
 
 <kbd>
   <img src="/13_start_putty.png">
 </kbd>
 
-1. Scroll down.
-2. Click 'Connection'
-3. Click 'SSH'
-4. Click 'Auth'
-5. Click 'Browse' and select the private key you save from PuTTYgen, which has a extension '.ppk'
+## 1. Scroll down.
+## 2. Click 'Connection'
+## 3. Click 'SSH'
+## 4. Click 'Auth'
+## 5. Click 'Browse' and select the private key you save from PuTTYgen, which has a extension '.ppk'
 
 
 <kbd>
   <img src="/15_ssh_auth_browse_private_key.PNG">
 </kbd>
 
-1. Scroll back up, Click 'Session'
-2. Enter your public ip address
-3. name your session
-4. Click 'Save'
-5. Start your session by clicking 'Open'
+## 1. Scroll back up, Click 'Session'
+## 2. Enter your public ip address
+## 3. name your session
+## 4. Click 'Save'
+## 5. Start your session by clicking 'Open'
 
 <kbd>
   <img src="/16_save.PNG">
 </kbd>
 
-Click 'yes' when prompted.
+## Click 'yes' when prompted.
 
-Enter your GCP username and hit the 'Enter/return' key to login to your VM
+## Enter your GCP username and hit the 'Enter/return' key to login to your VM
 
 <kbd>
   <img src="/17_login_as.PNG">

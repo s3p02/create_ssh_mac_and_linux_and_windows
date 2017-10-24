@@ -2,7 +2,7 @@
 
 Open a new terminal.
 
-# Step 1: Using the SSH-KEYGEN
+## Step 1: Using the SSH-KEYGEN
 
 ```
 sudo ssh-keygen -t rsa -f ~/.ssh/gcp_deeplearn_gpu -C srpa3180

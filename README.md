@@ -167,7 +167,13 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
   <img src="/16_save.PNG">
 </kbd>
 
-## Click 'yes' when prompted.
+## Security Alert
+
+# Click 'yes' when prompted.
+
+<kbd>
+  <img src="/security_alert.JPG">
+</kbd>
 
 ## Enter your GCP username and hit the 'Enter/return' key to login to your VM
 

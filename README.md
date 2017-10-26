@@ -43,59 +43,59 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 
 [Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) putty for windows.
 
-# Step 1: Installation
+## Step i: Installation
 
-## Click 'Next'. 
+Click 'Next'. 
 
 <kbd>
   <img src="/0_putty_install.PNG">
 </kbd>
 
-## Click 'Next'. 
+Click 'Next'. 
 
 <kbd>
   <img src="/1_next.PNG">
 </kbd>
 
-## Click 'Install'. 
+Click 'Install'. 
 
 <kbd>
   <img src="/2_install.PNG">
 </kbd>
 
-## Click 'Finish'. 
+Click 'Finish'. 
 
 <kbd>
   <img src="/3_finished.PNG">
 </kbd>
 
-# Step 2: Generate SSH Key using PuTTYgen
+## Step ii: Generate SSH Key using PuTTYgen
 
-## From the start Menu, search for putty and click 'PuTTYgen'. 
+ From the start Menu, search for putty and click 'PuTTYgen'. 
 
 <kbd>
   <img src="/4_putty_gen.png">
 </kbd>
 
-## Click 'Generate'.
+Click 'Generate'.
 
 <kbd>
   <img src="/5_generate.PNG">
 </kbd>
 
-## Move your mouse cursor on the blank area, to generate some randomness.
+Move your mouse cursor on the blank area, to generate some randomness.
 
 <kbd>
   <img src="/6_move_over_blank_area.PNG">
 </kbd>
 
-## Replace the Key comment, with your GCP username.
+Replace the Key comment, with your GCP username.
 
 <kbd>
   <img src="/7_replace_with_user_name.PNG">
 </kbd>
 
-## Copy the entire public key contents as highlighted.
+Copy the entire public key contents as highlighted.
 
 <kbd>
   <img src="/8_copy_contents.PNG">
@@ -103,25 +103,25 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 
 ## You can save your public and private key for future reference. You can give a passphrase for your keys if you want. Since I haven't I will be prompted to do so later while saving the private key.
 
-## Click 'Save public key'.
+Click 'Save public key'.
 
 <kbd>
   <img src="/9_save_public_private_key.PNG">
 </kbd>
 
-## Name you file and click 'Save'.
+Name you file and click 'Save'.
 
 <kbd>
   <img src="/10_pub.PNG">
 </kbd>
 
-## Click 'Save private key'.
+Click 'Save private key'.
 
 <kbd>
   <img src="/9_save_public_private_key.PNG">
 </kbd>
 
-## Since I never gave a passphrase, I can click 'Yes'.
+Since I never gave a passphrase, I can click 'Yes'.
 
 <kbd>
   <img src="/11_private_yes.PNG">

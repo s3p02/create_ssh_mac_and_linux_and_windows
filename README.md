@@ -1,8 +1,11 @@
-# USING MAC OS or Linux
+# Create SSH key
 
-# Open a new terminal.
 
-# Step 1: Using the SSH-KEYGEN
+## I. USING MAC OS or Linux
+
+Open a new terminal.
+
+## Step i: Using the SSH-KEYGEN
 
 ```
 sudo ssh-keygen -t rsa -f ~/.ssh/gcp_deeplearn_gpu -C srpa3180
@@ -21,7 +24,7 @@ sudo ssh-keygen -t rsa -f ~/.ssh/gcp_deeplearn_gpu -C srpa3180
 
 ## Location to your public key is as highlighted above in red, and can be accessed with the following cat command in Step 2.
 
-## Step 2: Copy Public Key to VM
+## Step ii: Copy Public Key to VM
 
 ```
 sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
@@ -36,7 +39,7 @@ sudo cat ~/.ssh/gcp_deeplearn_gpu.pub
 ## Once you've copied your key, continue from [Step 6](https://github.com/s3p02/gcp_console_getting_started)
 
 
-# USING WINDOWS (Putty)
+## II. USING WINDOWS (Putty)
 
 [Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) putty for windows.
 
